@@ -1,6 +1,4 @@
-const { React } = require("powercord/webpack");
 const { Plugin } = require("powercord/entities");
-
 const Settings = require("./Settings.jsx");
 
 module.exports = class DiceCommand extends Plugin {
